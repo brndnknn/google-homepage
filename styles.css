@@ -8,6 +8,7 @@ body {
         display: grid;
         grid-template-rows: 50px auto 50px;
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
 }
 
 nav {
@@ -29,9 +30,9 @@ form {
 }
 
 form input {
-    width: 500px;
-    height: 30px;
-    border-radius: 15px;
+    width: 550px;
+    height: 36px;
+    border-radius: 18px;
     border: solid 2px lightgrey;
     box-shadow: none;
     margin: 15px;
@@ -60,6 +61,15 @@ footer {
     color: rgb(87, 86, 86);
     min-height: 3em;
     min-width: 100%
+}
+
+#signIn {
+    color: white;
+    background-color: rgb(0, 0, 156);
+    border: none;
+    border-radius: 1px;
+    font-weight: bolder;
+    padding: 0.5em 0.8em;
 }
 
 #footLeft, #navLeft {
